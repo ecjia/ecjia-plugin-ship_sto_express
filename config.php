@@ -46,7 +46,6 @@
 //
 defined('IN_ECJIA') or exit('No permission resources.');
 
-RC_Lang::load_plugin('ship_sto_express');
 return array(
     'shipping_code' => 'ship_sto_express',
 	'insure' 		=> false,		/* 不支持保价 */
