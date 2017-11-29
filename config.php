@@ -56,9 +56,12 @@ return array(
 	'config_lable'	=> 't_shop_address,shop_address,235,48,131,152,b_shop_address||,||t_shop_name,shop_name,237,26,131,200,b_shop_name||,||t_shop_tel,shop_tel,96,36,144,257,b_shop_tel||,||t_customer_post,customer_post,86,23,578,268,b_customer_post||,||t_customer_address,customer_address,232,49,434,149,b_customer_address||,||t_customer_name,customer_name,151,27,449,231,b_customer_name||,||t_customer_tel,customer_tel,90,32,452,261,b_customer_tel||,||',			/* 打印快递单标签位置信息 */
 		
 	'forms' => array(
+			array('name' => 'fee_compute_mode', 'type' => 'radiobox', 'value' => 'by_weight'), /* 费用计算方式  */
 			array('name' => 'item_fee',      'value' => 15), /* 单件商品的配送费用 */
 			array('name' => 'base_fee',      'value' => 15), /* 1000克以内的价格           */
 			array('name' => 'step_fee',      'value' => 5),  /* 续重每1000克增加的价格 */
+			array('name' => 'free_money', 'type' => 'text', 'value' => 0), /* 免费额度  */
+			array('name' => 'pay_fee', 'type' => 'text', 'value' => 0), /* 货到付款支付费用  */
 	),
 );
 
