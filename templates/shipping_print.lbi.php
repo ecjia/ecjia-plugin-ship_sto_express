@@ -19,7 +19,7 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="height:0.9cm;">{$service_phone}</td>
+                    <td style="height:0.9cm;">{$shop_tel}</td>
                 </tr>
             </table>
 
@@ -28,7 +28,7 @@
             <table border="0" cellspacing="0" cellpadding="0" style="width:7.5cm;" align="center">
                 <tr>
                     <td style="width:2.3cm;">&nbsp;</td>
-                    <td style="height:1.5cm;">{$order.address}</td>
+                    <td style="height:1.5cm;">{$customer_address}</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -36,11 +36,11 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="height:0.9cm;">{$order.consignee}</td>
+                    <td style="height:0.9cm;">{$customer_name}</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td style="height:0.9cm;">{$order.tel}</td>
+                    <td style="height:0.9cm;">{$customer_mobel}</td>
                 </tr>
             </table>
         </td>
