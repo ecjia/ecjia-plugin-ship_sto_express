@@ -49,7 +49,7 @@ Plugin Name: 申通快递
 Plugin URI: http://www.ecjia.com/plugins/ecjia.ship_sto_express/
 Description: 江、浙、沪地区首重为15元/KG，其他地区18元/KG， 续重均为5-6元/KG， 云南地区为8元
 Author: ECJIA TEAM
-Version: 2.0.0
+Version: 2.30.0
 Author URI: http://www.ecjia.com/
 Plugin App: shipping
 Text Domain: ship_sto_express
