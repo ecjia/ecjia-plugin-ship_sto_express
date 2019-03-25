@@ -53,20 +53,30 @@ return array(
     'print_support' => true,
 	'print_model'	=> 2,			/* 模式编辑器 */
 	'print_bg'		=> 'images/dly_sto_express.jpg',			/* 打印单背景 */
-// 	'config_lable'	=> 't_shop_address,shop_address,235,48,131,152,b_shop_address||,||t_shop_name,shop_name,237,26,131,200,b_shop_name||,||t_shop_tel,shop_tel,96,36,144,257,b_shop_tel||,||t_customer_post,customer_post,86,23,578,268,b_customer_post||,||t_customer_address,customer_address,232,49,434,149,b_customer_address||,||t_customer_name,customer_name,151,27,449,231,b_customer_name||,||t_customer_tel,customer_tel,90,32,452,261,b_customer_tel||,||',			/* 打印快递单标签位置信息 */
 		
 	/**
 	 * 打印快递单标签位置信息
 	 * 使用 ||,|| 合并连接
 	 */
 	'config_lable'  => array(
-		't_shop_address,shop_address,235,48,131,152,b_shop_address',
-		't_shop_name,shop_name,237,26,131,200,b_shop_name',
-		't_shop_tel,shop_tel,96,36,144,257,b_shop_tel',
-		't_customer_post,customer_post,86,23,578,268,b_customer_post',
-		't_customer_address,customer_address,232,49,434,149,b_customer_address',
-		't_customer_name,customer_name,151,27,449,231,b_customer_name',
-		't_customer_tel,customer_tel,90,32,452,261,b_customer_tel',
+		't_shop_address,shop_address,247,34,184,226,b_shop_address',
+		't_shop_name,shop_name,281,28,146,156,b_shop_name',
+		't_shop_tel,shop_tel,137,26,183,262,b_shop_tel',
+		't_customer_address,customer_address,243,33,575,223,b_customer_address',
+		't_customer_name,customer_name,118,31,520,121,b_customer_name',
+		't_customer_tel,customer_tel,115,30,564,260,b_customer_tel',
+		't_customer_mobel,customer_mobel,126,30,693,259,b_customer_mobel',
+		't_customer_province,customer_province,64,25,509,188,b_customer_province',
+		't_customer_city,customer_city,71,25,605,187,b_customer_city',
+		't_customer_district,customer_district,63,22,698,188,b_customer_district',
+		't_customer_street,customer_street,112,33,461,223,b_customer_street',
+		't_shop_province,shop_province,56,28,130,189,b_shop_province',
+		't_shop_city,shop_city,73,25,213,190,b_shop_city',
+		't_shop_district,shop_district,68,26,310,188,b_shop_district',
+		't_shop_street,shop_street,111,34,73,226,b_shop_street',
+		't_year,year,43,22,151,427,b_year',
+		't_months,months,33,21,204,427,b_months',
+		't_day,day,32,21,242,427,b_day',
 		''
 	),
 		
